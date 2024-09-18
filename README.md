@@ -240,11 +240,8 @@ ADD impound int(1) NOT NULL DEFAULT 0;
 >ALTER TABLE owned_vehicles
 >ADD ``` `stored` ``` int(1) NOT NULL DEFAULT 0;
 
-
 >ALTER TABLE owned_vehicles
 >ADD ``` `type` ``` varchar(32) NOT NULL DEFAULT 'car';
-
-
 
 >ALTER TABLE owned_vehicles
 >ADD ``` `job` ``` varchar(32) NOT NULL DEFAULT 'civ';
@@ -323,7 +320,6 @@ ENGINE=InnoDB
 		description = 'Vehicle Key'
 	},
 ```
-
 
 # FOLDER NAME
 - must be renzu_garage
